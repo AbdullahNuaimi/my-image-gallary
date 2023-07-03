@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;900&display=swap');
+
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Inter';
+}
+
+.heading {
+    margin: 50px 0;
+    text-align: center;
+
+}
+
+.gradientText {
+    background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.gradientButton {
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    color: #d6e7ff;
+    padding: 8px 10px;
+    appearance: none;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.10s all ease-in;
+}
+
+.gradientButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 13px -8px #21d4fd;
+}
+
+.gradientButton:active {
+    transform: scale(0.95);
+}
+
+output {
+    flex-basis: 100%;
+    margin: 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.next{
+    margin-bottom: 20px;
+}
+
+#imgContainer{
+    max-height: 270px ;
+}
